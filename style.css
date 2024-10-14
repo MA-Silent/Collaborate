@@ -3,8 +3,35 @@ body{
     text-align: center;
 }
 ul{    
-    margin: auto;
-    text-align: center;
-    background-color: rgb(41, 128, 80);
+    /* Puts list horizontally */
+    display: flex;
     list-style-type: none;
+    justify-content: space-around;
+
+    /* Centers the list */
+    margin: auto;
+    width: 80%;
+    text-align: center;
+
+    /* Border properties */
+    background-color: rgb(41, 128, 80);
+    border-radius: 15px 15px 0px 0px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+#title{
+    background-color: rgb(41, 128, 80);
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
 }
